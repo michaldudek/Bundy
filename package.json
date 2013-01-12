@@ -1,10 +1,43 @@
 {
-	"name": "Bundy",
-	"description": "Easy tool to quickly bundle JavaScript (and CSS and other assets) releases.",
-	"version": "0.0.1",
-	"private": true,
+	"name": "bundy",
+	"version": "0.1.0",
+	"homepage" : "https://github.com/michaldudek/Bundy",
+	"description": "Easy and lightweight tool to quickly bundle JavaScript (and CSS and other assets) releases.",
+	"keywords": [
+		"package",
+		"build",
+		"builder",
+		"bundle",
+		"release",
+		"compressor",
+		"minify",
+		"minifier",
+		"yui",
+		"gcc",
+		"google",
+		"closure",
+		"compiler"
+	],
+	"author" : "Michał Dudek <michal@michaldudek.pl> (http://www.michaldudek.pl)",
+	"author" : {
+		"name" : "Michał Dudek",
+		"email" : "michal@michaldudek.pl",
+		"url" : "http://www.michaldudek.pl"
+	},
+	"bugs": {
+		"email": "michal@michaldudek.pl",
+		"url": "https://github.com/michaldudek/Bundy/issues"
+	},
+	"engines": {
+		"node": ">=0.8.17"
+	},
 	"dependencies": {
 		"node-minify" : "0.7.2",
 		"cli-color" : "0.2.1"
+	},
+	"main" : "index",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/michaldudek/Bundy.git"
 	}
 }
