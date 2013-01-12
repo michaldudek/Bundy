@@ -1,0 +1,10 @@
+{
+	"name": "Bundy",
+	"description": "Easy tool to quickly bundle JavaScript (and CSS and other assets) releases.",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"node-minify" : "0.7.2",
+		"cli-color" : "0.2.1"
+	}
+}
