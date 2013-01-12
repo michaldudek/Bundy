@@ -39,7 +39,7 @@ Bundy can do 3 tasks:
 
 This will concatenate and minify the four given files and save the result in `minified/myplugin.min.js`.
 
-Google Closure Java App is used to minify the JavaScript, therefore you need JVE installed and enabled.
+Google Closure Compiler Java application is used to minify the JavaScript, therefore you need JVE installed and enabled.
 
 #### Minify CSS
 
